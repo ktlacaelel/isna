@@ -1,6 +1,6 @@
 = isna
 
-Isna is a very simple ansi manipulation library, checkout the examples below:
+A very simple ANSI manipulation library, checkout the examples below:
 
 [http://github.com/ktlacaelel/isna/wiki/isna.png]
 
