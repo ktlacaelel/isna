@@ -2,6 +2,10 @@ module Isna
 
   module Backgrounds
 
+    def black_background
+      change_background 40
+    end
+
     def red_background
       change_background 41
     end
@@ -26,7 +30,7 @@ module Isna
       change_background 46
     end
 
-    def gray_background
+    def white_background
       change_background 47
     end
 

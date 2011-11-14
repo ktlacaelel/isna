@@ -30,6 +30,10 @@ module Isna
       change_color 36
     end
 
+    def white
+      change_color 37
+    end
+
   end
 
 end
