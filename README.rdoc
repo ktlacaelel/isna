@@ -4,9 +4,24 @@ A very simple ANSI manipulation library, checkout the examples below:
 
 [http://github.com/ktlacaelel/isna/wiki/isna.png]
 
-== Why isna??
+== Try it yourself.
 
-"isna" is "ansi" spelled backwards, but the gem name was already taken :S
+    require 'rubygems'
+    require 'isna'
+    "Hello World".to_ansi
+    "Hello World".to_ansi.red
+    puts "Hello World".to_ansi.red
+    puts "Hello World".to_ansi.underline.blue
+    puts "Hello World".to_ansi.blink.yellow
+    puts "Hello World".to_ansi.cyan
+    puts "Hello World".to_ansi.negative.cyan
+    puts "Hello World".to_ansi.green_background.yellow
+    puts "Hello World".to_ansi.green_background.bright.red
+    puts "Hello World".to_ansi.green_background.red
+    puts "Hello World".to_ansi.green_background.dark.red
+    # *bright* and *dark* only work when a background is applied.
+    puts "Normal String" + ' concatenated-with-a ' + "Ansi String".to_ansi.green.to_s
+
 
 == Support
 
@@ -44,6 +59,10 @@ I've just added the very basic types, but you should be able to extend it pretty
   * blink
   * fast_blink
   * negative
+
+== Why isna??
+
+"isna" is "ansi" spelled backwards, but the gem name was already taken :S
 
 == Note on Patches/Pull Requests
  
