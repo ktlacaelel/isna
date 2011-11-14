@@ -2,7 +2,7 @@
 
 Isna is a very simple ansi manipulation library, checkout the examples below:
 
-[[http://github.com/ktlacaelel/isna/wiki/isna.png]]
+[http://github.com/ktlacaelel/isna/wiki/isna.png]
 
 == Why isna??
 
@@ -12,6 +12,38 @@ Isna is a very simple ansi manipulation library, checkout the examples below:
 
 I've just added the very basic types, but you should be able to extend it pretty easily, if you think those changes should be on the core-gem send them over and I'll apply those for you. (and add your name in the credits section) :)
 
+=== Colors
+
+  * black
+  * red
+  * green
+  * yellow
+  * blue
+  * pink
+  * cyan
+  * white
+
+=== Backgrounds
+
+  * black_background
+  * red_background
+  * green_background
+  * yellow_background
+  * blue_background
+  * pink_background
+  * cyan_background
+  * white_background
+
+=== Behaviours
+
+  * normal
+  * bright
+  * dark
+  * italic
+  * underline
+  * blink
+  * fast_blink
+  * negative
 
 == Note on Patches/Pull Requests
  
