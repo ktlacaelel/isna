@@ -9,7 +9,7 @@ module Isna
 
     def initialize(string)
       @string      = string
-      @isna_format = [0, 0, 40]
+      @isna_format = [0, 0, 0]
       self
     end
 
