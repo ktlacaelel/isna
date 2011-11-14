@@ -1,6 +1,17 @@
 = isna
 
-Description goes here.
+Isna is a very simple ansi manipulation library, checkout the examples below:
+
+[[http://github.com/ktlacaelel/isna/wiki/isna.png]]
+
+== Why isna??
+
+"isna" is "ansi" spelled backwards, but the gem name was already taken :S
+
+== Support
+
+I've just added the very basic types, but you should be able to extend it pretty easily, if you think those changes should be on the core-gem send them over and I'll apply those for you. (and add your name in the credits section) :)
+
 
 == Note on Patches/Pull Requests
  
