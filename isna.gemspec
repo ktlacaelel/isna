@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{isna}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["kazuyoshi tlacaelel"]
-  s.date = %q{2011-11-13}
+  s.date = %q{2011-11-14}
   s.description = %q{Easily compiles transforms a string into ansi code}
   s.email = %q{kazu.dev@gmail.com}
   s.extra_rdoc_files = [
