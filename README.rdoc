@@ -113,6 +113,21 @@ of code, and its quite simple :)
 If you are thinking about extending look at the internals of this library.
 Specially Behaviours, Colors, and Backgrounds it'll give you a good idea on how to code/organize your extensions. :)
 
+== How much intrusion are you making on the String object??
+
+This is all the code that isna uses to extend strings.
+
+    class String
+
+      def to_ansi
+        Isna::String.new(self)
+      end
+
+    end
+
+There are no overrides, no intrusion, and no posible collisions withing the Data Type Object.
+Isna tries to do all its hard work separately and play nice with other libraries :)
+
 == Why isna??
 
 "isna" is "ansi" spelled backwards, but the gem name was already taken :S
