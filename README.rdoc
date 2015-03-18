@@ -2,7 +2,9 @@
 
 A very simple ANSI manipulation library, checkout the examples below:
 
-[http://github.com/ktlacaelel/isna/wiki/isna.png]
+![](http://github.com/ktlacaelel/isna/wiki/isna.png)
+
+
 
 == Try it yourself.
 
