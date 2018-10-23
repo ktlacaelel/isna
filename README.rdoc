@@ -68,7 +68,7 @@ You can create custom ansi combos easily!
 In the following example am replicating the exact same behaviour that some in-library functions do.
 But I am in control and manually set every single value I want to change. Check out the example :)
 
-[http://github.com/ktlacaelel/isna/wiki/custom.png]
+https://github.com/ktlacaelel/isna/wiki/custom.png
 
 == Try it yourself.
 
@@ -85,7 +85,7 @@ Perhaps you want to add xterm colors +(255) colors would be great right?
 The snippet below shows an easy way to extend isna yet keeping a clean and organized separation
 of code, and its quite simple :)
 
-[http://github.com/ktlacaelel/isna/wiki/extending.png]
+https://github.com/ktlacaelel/isna/wiki/extending.png
 
 == Try it yourself.
 
